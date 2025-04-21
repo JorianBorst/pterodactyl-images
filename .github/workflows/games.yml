@@ -34,6 +34,6 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/JorianBorst/games:${{ matrix.game }}
+            ghcr.io/jorianborst/games:${{ matrix.game }}
 
 #test
