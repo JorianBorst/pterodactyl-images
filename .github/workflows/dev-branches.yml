@@ -27,8 +27,8 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
       - uses: docker/build-push-action@v5
         with:
-          context: ./games/carbon
-          file: ./games/carbon/Dockerfile
+          context: ./games/rust
+          file: ./games/rust/Dockerfile
           platforms: linux/amd64
           push: true
           tags: |
