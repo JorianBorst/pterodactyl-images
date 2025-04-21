@@ -27,4 +27,4 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/JorianBorst/aioegg:production
+            ghcr.io/jorianborst/aioegg:production
